@@ -1,0 +1,856 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:  Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    max-width: 75%;
+    margin: auto;
+}
+
+
+
+.banner{
+    width: 100%;
+    height: 740px;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+.min-head{
+    width: 100%;
+    float: left;
+    padding: 19px 0px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.info{
+    width: 40%;
+    float: left;
+    }
+.info h5{
+    font-size: 14px;
+    float: left;
+    margin: 0px;
+    font-weight: 200; 
+}
+.info h5 span{
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 14px;
+}
+.email{
+    width: 41%;
+    float: left;
+}
+.email img {
+    width: 14px;
+    height: 15px;
+    float: right;
+    padding-right: 5px;
+}
+.mail-dres{
+    font-size: 14px;
+    font-weight: 400;
+    float: right;
+    color: white;
+}
+.phone{
+    width: 17%;
+    float: right;
+}
+.phone img{
+    width: 13px;
+    height: 13px;
+    float: right;
+    padding-right: 5px;
+}
+
+
+.header{
+    width: 100%;
+    padding: 18px 0px;
+    float: left;
+ 
+}
+
+.logo{
+    width: 11%;
+    float: left;
+}
+.logo img{
+    width: 98%;
+    height: auto;
+    float: left;
+}
+
+.menu{
+    width: 55%;
+    float: left;
+    color: white;
+    padding-left: 150px;
+}
+
+.menu ul{
+    color: white;
+    float: left;
+    text-decoration: none;
+    margin: 0px 0px;
+
+}
+.menu li{
+    color: white;
+    float: left;
+    padding: 9px 25px;
+    list-style: none;
+}
+
+.menu li a{
+    color: white;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.social{
+    width: 20%;
+    float: left;
+    padding: 8px 0px;
+
+}
+
+.social img{
+width: auto;
+height: 17px;
+float: right;
+padding-left: 20px;
+}
+
+.heading{
+    width: 50%;
+    float: left;
+    margin-top: 113px;
+    padding: 0px 0px 0px 30px;
+}
+
+.heading p{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+.heading h1{
+    color: #ffffff;
+    font-family: "Nothing You Could Do", Sans-serif;
+    font-weight: 900;
+    line-height: 1.4em;
+    font-size: 60px;
+}
+
+.heading i{
+   color: white;
+}
+
+
+
+.about{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 100px 0px 100px 0px;
+    float: left;
+
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    height: auto;
+    width: 13%;
+}
+.box img{
+    width: auto;
+    height: 52px;
+    float: right;
+
+}
+
+.title-text{
+    width: 80%;
+    padding: 0px 107px;
+
+}
+.title-text h1{
+    font-family: "Nothing You Could Do", Sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.3em;
+    margin: 0px;
+    text-align: center;
+}
+
+.title-text p{
+    font-size: 18px;
+    text-align: center;
+   margin: 45px 0px;
+   color: #444444;
+}
+
+.img-colction{
+    width: 100%;
+    float: left;
+    display: flex;
+    padding: 50px 0px 14px;
+    justify-content: space-between;
+    
+}
+
+.imgs{
+    width: 22%;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgs img{
+    width: 100%;
+    height: auto;
+    float: left;
+    transition: all ease-in-out .3s; 
+}
+.imgs img:hover{
+    width: 100%;
+    transform: scale(1.1);
+}
+
+.imgs a{
+    text-decoration: none;
+    float: left;
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+    
+    color: #ffffff;
+  
+   
+}
+
+.imge-txt{
+    float: left;
+    float: left;
+    margin-top: -36px;
+    position: relative;
+    z-index: 1;
+    padding-left: 19px;
+}
+
+.protofolio{
+    width: 100%;
+    float: left;
+}
+.count{
+    width: 27%;
+    float: left;
+    padding: 30px;
+
+}
+
+.count h1{
+
+    color: #262171;
+    font-size: 70px;
+    text-align: center;
+    margin: 0px;
+}
+
+.count h5{
+    color: #262171;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 2em;
+    margin: 0px;
+    text-align: center;
+}
+
+.count p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 26px;
+    margin-top: 30px;
+}
+
+
+.proto-box{
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+}
+
+.comptr{
+    width: 100%;
+    margin-top: 20px;
+    float: left;
+    height: 992px;
+    background-size: cover;
+}
+
+
+.manage{
+    width: 100%;
+    float: left;
+    padding: 70px 0px;
+}
+.left-manage{
+    width: 40%;
+    float: left;
+}
+
+.uper{
+ width: 100%;
+ float: left;
+ height: 2px;
+}
+.uper img{
+    width: auto;
+    float: right;
+    height: 48px;
+    padding-right: 112px;
+}
+
+.downn{
+    width: 100%;
+    float: left;
+}
+.downn h1{
+    font-family: "Nothing You Could Do", Sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1.5em;
+}
+
+
+.right-manage{
+    width: 60%;
+    float: right;
+}
+
+.right-manage h5{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+    color: black;
+    margin: 0px;
+}
+.manger{
+    width: 100%;
+    float: left;
+}
+
+.right-manage p{
+    color: #262171;
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 27px;
+}
+
+.sign{
+    width: 100%;
+    float: left;
+}
+
+.sign img{
+    width: auto;
+    height: 60px;
+    float: left;
+    margin-top: 45px;
+}
+
+.details{
+    float: left;
+    width: 100%;
+    display: flex;
+    padding: 50px 0px 0px;
+    background-color: #f9f9f9;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.detail-box{
+    width: 28%;
+    float: left;
+    padding: 35px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    box-shadow: 0px 35px 60px 0px rgb(0 0 0 / 10%);
+}
+
+.left-box{
+    width: calc(100% - 120px);
+    float: left;
+
+}
+
+.left-box h2{
+    font-size: 22px;
+    line-height: 1.4em;
+    color: black;
+    font-weight: 500;
+    margin: 0px;
+
+}
+
+.left-box p{
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 10px;
+    color: #262171;
+}
+
+.right-box{
+    width: 120px;
+    float: right;
+    text-align: right;
+
+}
+
+.right-box img{
+    max-width: 100px;
+    border-radius: 250px;
+}
+
+.down-box{
+    width: 100%;
+    float: left;
+}
+
+.down-box p{
+    width: 100%;
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 27px;
+    float: left;
+    
+}
+
+
+
+.package{
+    width: 100%;
+    padding-top: 70px;
+    max-height: 622px;
+    float: left;
+    background-color: #262171;
+}
+
+.toeboxes{
+    width: 100%;
+    float: left;
+    position: relative;
+    z-index: 1;
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.package-price{
+    padding: 80px 40px 80px 40px;
+    float: left;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 38%;
+    box-shadow: 0px 35px 60px 0px rgb(0 0 0 / 10%);
+}
+
+.package-price h2{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px;
+}
+
+.rate{
+    width: 100%;
+    display: flex;
+    padding-top: 35px;
+    justify-content: center;
+ 
+
+}
+.rate h3{
+    color: #222222;
+    font-size: 100px;
+    width: 39%;
+    margin: 0px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.rate h1{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.rate h4{
+    padding-top: 49px;
+}
+.hotel{
+    width: 100%;
+    float: left;
+}
+.hotel p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.hotel p span{
+    font-weight: 600;
+}
+
+.buton{
+    width: 100%;
+    display: flex;
+    float: left;
+    flex-wrap: nowrap;
+    margin-top: 45px;
+    justify-content: space-around;
+    
+}
+
+.now{
+    float: left;
+}
+
+
+.now a{
+    font-weight: 900;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: #262171;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #262171;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    padding: 10px 35px 10px 35px;
+    
+}
+
+.now a:hover{
+    padding: 12px 36px;
+    color: #262171;
+    background-color: #ffffff;
+    border-color: #262171;
+    transition: 0.5s;
+}
+
+.space{
+width: 100%;
+float: left;
+height: 322px;
+}
+
+
+.freaqent{
+    width: 100%;
+    float: left;
+    padding: 20px 0px 70px;
+    background-color: #ffffff;
+}
+
+.title-freq{
+  
+    float: left;
+    padding: 0px 291px;
+}
+
+.title-freq h1{
+    text-align: center;
+    margin-bottom: 39px;
+    font-size: 36px;
+    font-weight: 500;
+}
+.title-freq p{
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.options{
+    display: flex;
+    width: 100%;
+    float: left;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.options-box{
+    padding: 23px 25px;
+    width: 100%;
+    margin-right: 10px;
+    float: left;
+    border: #d8d8d8 solid 1px;
+    border-radius: 5px;
+}
+
+.options-box h1{
+    font-size: 14px;
+    width: 3%;
+    height: 3%;
+    border-radius: 13px;
+    text-align: center;
+    background-color: #444444;
+    color: white;
+    float: left;
+    margin: 0px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.options-box h2{
+    font-size: 20px;
+    font-weight: 900;
+    color: #444444 ;
+    margin: 0px;
+}
+
+
+
+
+.booking-img{
+    width: 100%;
+    padding: 110px 0px;
+    height: 456px;
+    float: left;
+    background-image: url(../images/austin-neill-160129-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.booking-details{
+    width: 50%;
+    float: left;
+    height: 400px;
+}
+
+.ttle{
+    width: 100%;
+    float: left;
+    display: flex;
+    /* margin-left: auto; */
+    justify-content: space-around;
+}
+
+.tour{
+    font-size: 18px;
+    font-weight: 900;
+    fill: #ffffff;
+    border-width: 13px 33px 13px 33px;
+    color: #ffffff;
+    background-color: #262171;
+    border-style: solid;
+    text-decoration: inherit;
+    border-color: #262171;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0px 35px 60px 0px rgb(0 0 0 / 10%);
+}
+
+.input{
+    padding: 12px 6px;
+    font-size: 88%;
+    margin: 0;
+    background: #fff;
+    border: 1px solid #222222;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+
+.submitbtn{
+    padding: .6em 2.5em .6em 2.5em;
+    color: #fff;
+    background: #222;
+    border: 2px solid #222;
+    font-size: 15px;
+    text-shadow: none;
+    font-weight: normal;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.submitbtn:hover{
+    background-color: #ffffff;
+    color: #1c58f6;
+    border-color: #1c58f6;
+    transition: 1s;
+}
+
+.right-ttle{
+    width: 50%;
+    float: left;
+    height: 400px;
+}
+.right-ttle p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 67px;
+}
+
+.right-ttle h1{
+    color: #ffffff;
+    font-family: "Nothing You Could Do", Sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 20px;
+    line-height: 1.4em;
+}
+
+.foter{
+    padding: 70px 0px;
+    background-color: #222;
+    width: 100%;
+    float: left;
+   background-attachment: fixed;
+}
+
+.part1{
+    width: 20%;
+    float: left;
+}
+
+.part1 img{
+    width: 123px;
+    height: auto;
+    float: left;
+}
+
+.part2{
+    width: 23%;
+    float: left;
+
+}
+
+.part2 h1{
+    font-size: 18px;
+    float: left;
+    margin: 0px;
+    margin-top: 8px;
+    font-weight: 700;
+    color: white;
+}
+
+.part2 a{
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 28px;
+    color: gray;
+    text-decoration: none;
+}
+
+.part3{
+    width: 30%;
+    float: left; 
+}
+
+.part3 h1{
+    width: 100%;
+    float: left;
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.part3 h1 span{
+    color: #9b9b9b;
+}
+
+.part1 span{
+    color: gray;
+}
+
+.para{
+    width: 100%;
+    float: left;
+    margin-top: 18px;
+}
+
+.para h2{
+    width: 100%;
+    font-size: 18px;
+    float: left;
+    font-size: small;
+    color: white;
+    
+}
+.para p{
+    color:gray ;
+    margin: 5px 0px;
+    font-size: 14px;
+}
+
+.ftr-logo{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.ftr-logo img{
+    width: auto;
+    height: 20px;
+    margin-right: 25px;
+}
+
+.copright{
+    width: 100%;
+    float: left;
+    background-color:  #222222;;
+    border-top: 1px solid #333333;
+    padding: 21px 0px;
+}
+
+.left-cn{
+    width: 50%;
+    float: left;
+}
+
+.left-cn p{
+    font-size: 15px;
+    float: left;
+    color: gray;
+}
+
+.right-cn{
+    width: 50%;
+    float: right;
+}
+
+.right-cn p{
+    font-size: 15px;
+    float: right;
+    color: gray;
+}
+
+
+
